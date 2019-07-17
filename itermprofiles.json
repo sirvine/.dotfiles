@@ -597,7 +597,7 @@
     "Green Component" : 0.61444956064224243
   },
   "Transparency" : 0,
-  "Initial Text" : "clear; source ~\/.zshrc; pwd; lc;",
+  "Initial Text" : "clear; source ~\/.zshrc; pwd; colorls;",
   "Background Color" : {
     "Red Component" : 0.10171058773994446,
     "Color Space" : "Calibrated",
