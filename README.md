@@ -7,7 +7,13 @@
 * Install Witch (NOT from App Store)
 * Install Spectacle from web
 * Install Sublime Text
+  * License key is in 1Password
+  * `cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/`
+  * `rm -r User`
+  * `ln -s ~/Dropbox (Personal)/Sublime/User`
 * Install Visual Studio Code
+  * Sync settings via gist: http://shanalikhan.github.io/2015/12/15/Visual-Studio-Code-Sync-Settings.html
+  * The gist is hosted on personal github account `sirvine`
 * Install MS Office
   * Log into office 365
   * Download and install apps
