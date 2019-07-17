@@ -2,8 +2,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH=$HOME/.oh-my-zsh
 DEFAULT_USER=$USER
 
-source $ZSH/oh-my-zsh.sh
-
 BULLETTRAIN_PROMPT_ORDER=(
   context
   dir
@@ -31,6 +29,8 @@ plugins=(git
          zsh-autosuggestions
          zsh-syntax-highlighting
 )
+
+source $ZSH/oh-my-zsh.sh
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
