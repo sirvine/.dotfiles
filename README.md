@@ -8,24 +8,28 @@
 * Install Spectacle from web
 * Install Sublime Text
 * Install Visual Studio Code
-* Install iTerm2
 * Install MS Office
-* Install Tower and apply license key (from email or 1Password)
+  * Log into office 365
+  * Download and install apps
+  * Activate one of the apps
+* Install Tower 
+  * Apply license key from email/1Password
 
 ### Terminal/CLI
 
+* Install iTerm2
+* Install bulletrain theme in `~/.oh-my-zsh/themes`
+* Install `autojump`
+* Copy iTerm2 profile plist and point iTerm2 to it in preferences
+  * Get it from this repo
+  * And put it in `~/Library/Application Support/iTerm2/DynamicProfiles`
+  * Set fonts to `Noto for Powerline` and `Hack Nerd Font`
+* Install nerd fonts
+  * `brew tap homebrew/cask-fonts`
+  * `brew cask install font-hack-nerd-font`
+* Copy `.zshrc` from this repo
 * Install and setup oh-my-zsh
 	* https://github.com/robbyrussell/oh-my-zsh
-* Copy `.zshrc` from this repo
-* Install bulletrain theme in `~/.oh-my-zsh/themes`
-* Install nerd fonts
-	* `brew tap homebrew/cask-fonts`
-	* `brew cask install font-hack-nerd-font`
-* Copy iTerm2 profile plist and point iTerm2 to it in preferences
-	* Get it from this repo
-	* And put it in `~/Library/Application Support/iTerm2/DynamicProfiles`
-	* Set fonts to `Noto for Powerline` and `Hack Nerd Font`
-* Install `autojump`
 
 ### Git/Github
 
