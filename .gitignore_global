@@ -1,0 +1,11 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db.DS_Store
+app/.DS_Store config/.DS_Store log/.DS_Store portfolio/.DS_Store script/.DS_Store vendor/.DS_Store
+lcov.dat.DS_Store
