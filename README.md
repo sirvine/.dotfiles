@@ -15,6 +15,7 @@
 ### Terminal/CLI
 
 * Install and setup oh-my-zsh
+	* https://github.com/robbyrussell/oh-my-zsh
 * Copy `.zshrc` from this repo
 * Install bulletrain theme in `~/.oh-my-zsh/themes`
 * Install nerd fonts
@@ -22,16 +23,16 @@
 	* `brew cask install font-hack-nerd-font`
 * Copy iTerm2 profile plist and point iTerm2 to it in preferences
 	* Get it from this repo
-	* And put it in ~/Library/Application Support/iTerm2/DynamicProfiles
+	* And put it in `~/Library/Application Support/iTerm2/DynamicProfiles`
 	* Set fonts to `Noto for Powerline` and `Hack Nerd Font`
 * Install `autojump`
 
 ### Git/Github
 
 * Create ssh key pairs for personal and work github accounts
-* If you want, bring ~/.ssh/config settings over and adjust with paths to new key pairs
-* Add new ssh key pairs to github accounts
-* Configure Tower with github accounts, default clone via SSH, and point to the correct private key
+	* See https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+* Add new ssh public keys to github accounts
+* Configure Tower with github accounts, default clone via SSH, and point to the correct private key(s)
 
 ### Ruby/Postgres
 
