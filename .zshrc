@@ -39,7 +39,7 @@ eval "$(rbenv init -)"
 
 autoload bashcompinit
 bashcompinit
-source $(dirname $(gem which colorls))/tab_complete.sh
+# source $(dirname $(gem which colorls))/tab_complete.sh
 
 alias be="bundle exec"
 alias aws="/usr/local/bin/aws"
@@ -54,5 +54,7 @@ alias rails='noglob rails'
 alias heroku='noglob heroku'
 alias kbbcode="ping -c 1 yahoo.com |md5 | head -c16 | tr '[:lower:]' '[:upper:]'; echo"
 alias kanji='myougiden'
+alias zshrc='subl ~/.zshrc'
+alias se='subl .'
 
 eval "$(nodenv init -)"
