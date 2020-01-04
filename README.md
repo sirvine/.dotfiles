@@ -11,6 +11,7 @@
   * `cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/`
   * `rm -r User`
   * `ln -s ~/Dropbox (Personal)/Sublime/User`
+* Install Fira Code font: https://github.com/tonsky/FiraCode/wiki/Installing
 * Install Visual Studio Code
   * Sync settings via gist: http://shanalikhan.github.io/2015/12/15/Visual-Studio-Code-Sync-Settings.html
   * The gist is hosted on personal github account `sirvine`
@@ -20,6 +21,7 @@
   * Activate one of the apps
 * Install Tower 
   * Apply license key from email/1Password
+* Install Fanny: https://www.fannywidget.com
 
 ### Terminal/CLI
 
