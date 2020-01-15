@@ -10,7 +10,7 @@
   * License key is in 1Password
   * `cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/`
   * `rm -r User`
-  * `ln -s ~/Dropbox (Personal)/Sublime/User`
+  * `ln -s ~/Dropbox/Sublime/User`
 * Install Fira Code font: https://github.com/tonsky/FiraCode/wiki/Installing
 * Install Visual Studio Code
   * Sync settings via gist: http://shanalikhan.github.io/2015/12/15/Visual-Studio-Code-Sync-Settings.html
@@ -26,6 +26,9 @@
 ### Terminal/CLI
 
 * Install iTerm2
+* Copy `.zshrc` from this repo
+* Install and setup oh-my-zsh
+	* https://github.com/robbyrussell/oh-my-zsh
 * Install bulletrain theme in `~/.oh-my-zsh/themes`
 * Install `autojump`
 * Copy iTerm2 profile plist and point iTerm2 to it in preferences
@@ -35,9 +38,6 @@
 * Install nerd fonts
   * `brew tap homebrew/cask-fonts`
   * `brew cask install font-hack-nerd-font`
-* Copy `.zshrc` from this repo
-* Install and setup oh-my-zsh
-	* https://github.com/robbyrussell/oh-my-zsh
 
 ### Git/Github
 
