@@ -12,7 +12,7 @@
   * License key is in 1Password
   * `cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/`
   * `rm -r User`
-  * `ln -s ~/Dropbox/Sublime/User`
+  * `ln -s ~/Dropbox/Apps/Sublime/User`
 * Install Fira Code font: 
   * https://github.com/tonsky/FiraCode/wiki/Installing
   * `brew tap homebrew/cask-fonts`
@@ -27,6 +27,10 @@
 * Install Tower 
   * Apply license key from email/1Password
 * Install Fanny: https://www.fannywidget.com
+* Install QuickLook for txt
+  * `brew cask install qlstephen`
+  * You may need do `xattr -cr ~/Library/QuickLook/QLStephen.qlgenerator` as per: https://github.com/whomwah/qlstephen/issues/81#issuecomment-574148579
+
 
 ### Terminal/CLI
 
