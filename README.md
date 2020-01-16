@@ -58,6 +58,7 @@
 * In iTerm2 preferences:
   * under `General`, choose `Open Default Window Arrangement` under `Window restoration policy`
   * under `Appearance`, choose `Minimal` theme and `Bottom` for status bar location
+* Configure the keyboard behavior here: https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
 
 ### Ruby/Postgres/Ember
 
