@@ -6,8 +6,8 @@
     "Alpha Component" : 1,
     "Green Component" : 0.2763468325138092
   },
-  "ASCII Ligatures" : true,
-  "Working Directory" : "\/Users\/solirvine",
+  "Custom Directory" : "Advanced",
+  "Working Directory" : "",
   "Prompt Before Closing 2" : 2,
   "Selected Text Color" : {
     "Red Component" : 0.50293725728988647,
@@ -77,6 +77,8 @@
           "knobs" : {
             "path" : "path",
             "minwidth" : 0,
+            "base: compression resistance" : 1,
+            "base: priority" : 5,
             "shared text color" : {
               "Red Component" : 0.90000000000000002,
               "Color Space" : "sRGB",
@@ -84,8 +86,6 @@
               "Alpha Component" : 1,
               "Green Component" : 0.63
             },
-            "base: priority" : 5,
-            "base: compression resistance" : 1,
             "maxwidth" : 1.7976931348623157e+308
           },
           "layout advanced configuration dictionary value" : {
@@ -121,6 +121,8 @@
           "knobs" : {
             "minwidth" : 0,
             "iTermStatusBarGitComponentPollingIntervalKey" : 2,
+            "base: compression resistance" : 1,
+            "base: priority" : 5,
             "shared text color" : {
               "Red Component" : 0.63,
               "Color Space" : "sRGB",
@@ -128,8 +130,6 @@
               "Alpha Component" : 1,
               "Green Component" : 0.90000000000000002
             },
-            "base: priority" : 5,
-            "base: compression resistance" : 1,
             "maxwidth" : 1.7976931348623157e+308
           },
           "layout advanced configuration dictionary value" : {
@@ -142,8 +142,6 @@
         "class" : "iTermStatusBarSpringComponent",
         "configuration" : {
           "knobs" : {
-            "iTermStatusBarSpringComponentSpringConstantKey" : 0.01,
-            "base: priority" : 5,
             "shared text color" : {
               "Red Component" : 0.63,
               "Color Space" : "sRGB",
@@ -151,7 +149,9 @@
               "Alpha Component" : 1,
               "Green Component" : 0.90000000000000002
             },
+            "base: priority" : 5,
             "base: compression resistance" : 1,
+            "iTermStatusBarSpringComponentSpringConstantKey" : 0.01,
             "iTermStatusBarSpringComponentSizeMultipleKey" : 1
           },
           "layout advanced configuration dictionary value" : {
@@ -211,7 +211,7 @@
   "Cursor Guide Color" : {
     "Red Component" : 0.074476100504398346,
     "Color Space" : "Calibrated",
-    "Blue Component" : 0.088029004633426666,
+    "Blue Component" : 0.088029004633426694,
     "Alpha Component" : 0.25,
     "Green Component" : 0.084676004946231842
   },
@@ -399,6 +399,10 @@
       "Text" : "[1;2D",
       "Action" : 10
     },
+    "0xf703-0x280000" : {
+      "Action" : 10,
+      "Text" : "f"
+    },
     "0xf707-0x20000" : {
       "Text" : "[1;2S",
       "Action" : 10
@@ -426,6 +430,10 @@
     "0xf701-0x260000" : {
       "Text" : "[1;6B",
       "Action" : 10
+    },
+    "0xf702-0x280000" : {
+      "Action" : 10,
+      "Text" : "b"
     },
     "0xf72b-0x20000" : {
       "Text" : "[1;2F",
@@ -622,7 +630,7 @@
   },
   "Columns" : 80,
   "Visual Bell" : true,
-  "Custom Directory" : "Advanced",
+  "ASCII Ligatures" : true,
   "Thin Strokes" : 4,
   "Set Local Environment Vars" : true
 }
