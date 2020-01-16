@@ -1,8 +1,12 @@
 {
-"Profiles": [
-{
-  "Custom Directory" : "Advanced",
-  "Set Local Environment Vars" : true,
+  "Ansi 5 Color" : {
+    "Red Component" : 0.40214115381240845,
+    "Color Space" : "Calibrated",
+    "Blue Component" : 0.78470885753631592,
+    "Alpha Component" : 1,
+    "Green Component" : 0.2763468325138092
+  },
+  "ASCII Ligatures" : true,
   "Working Directory" : "\/Users\/solirvine",
   "Prompt Before Closing 2" : 2,
   "Selected Text Color" : {
@@ -594,7 +598,7 @@
     "Green Component" : 0.61444956064224243
   },
   "Transparency" : 0,
-  "Initial Text" : "lc -A",
+  "Initial Text" : "",
   "Background Color" : {
     "Red Component" : 0.10171058773994446,
     "Color Space" : "Calibrated",
@@ -604,6 +608,7 @@
   },
   "Screen" : -1,
   "AWDS Window Option" : "Recycle",
+  "Initial Use Transparency" : false,
   "Bound Hosts" : [
 
   ],
@@ -617,15 +622,7 @@
   },
   "Columns" : 80,
   "Visual Bell" : true,
-  "ASCII Ligatures" : true,
+  "Custom Directory" : "Advanced",
   "Thin Strokes" : 4,
-  "Ansi 5 Color" : {
-    "Red Component" : 0.40214115381240845,
-    "Color Space" : "Calibrated",
-    "Blue Component" : 0.78470885753631592,
-    "Alpha Component" : 1,
-    "Green Component" : 0.2763468325138092
-  }
-}
-]
+  "Set Local Environment Vars" : true
 }
