@@ -52,6 +52,9 @@
 	* You'll probably need to change `Working Directory` to match your local username
   * Put it in `~/Library/Application Support/iTerm2/DynamicProfiles`
   * Set fonts to `Noto for Powerline` and `Hack Nerd Font`
+* In iTerm2 preferences:
+  * under `General`, choose `Open Default Window Arrangement` under `Window restoration policy`
+  * under `Appearance`, choose `Minimal` theme and `Bottom` for status bar location
 
 ### Ruby/Postgres/Ember
 
