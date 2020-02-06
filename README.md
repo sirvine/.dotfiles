@@ -50,8 +50,8 @@
 * Install bulletrain theme in `~/.oh-my-zsh/themes`
 * Copy iTerm2 profile plist (from this repo) and point iTerm2 to it in preferences
 	* You'll probably need to change `Working Directory` to match your local username
-  * Put it in `~/Library/Application Support/iTerm2/DynamicProfiles`
-  * Set fonts to `Noto for Powerline` and `Hack Nerd Font`
+  * Put it in `~/Library/Application Support/iTerm2/DynamicProfiles` or just import it from `Preferences > Profiles > Other Actions... > Import JSON Profiles...`
+  * Set fonts to `Noto for Powerline` and `Hack Nerd Font` or `Fira Code`
 * Save a window arrangement that you like:
   * <kbd>cmd-shift-S</kbd> or `Window > Save Window Arrangement`
   * Name it `default-arrangement` or something similar
