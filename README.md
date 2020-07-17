@@ -41,13 +41,15 @@
   * `brew tap homebrew/cask-fonts`
   * `brew cask install font-hack-nerd-font`
   * `brew cask install font-noto-mono-for-powerline`
+* Install `MesloLGS NF` font
+* Install Powerline10K theme
+  	* https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb
 * Install and setup oh-my-zsh
 	* https://github.com/robbyrussell/oh-my-zsh
 * Copy `.zshrc` from this repo
 * Install `zsh-autosuggestions` (use the oh-my-zsh instructions)
 * Install `zsh-syntax-highlighting` (use the oh-my-zsh instructions)
 * Install `nodenv`: `brew install nodenv`
-* Install bulletrain theme in `~/.oh-my-zsh/themes`
 * Copy iTerm2 profile plist (from this repo) and point iTerm2 to it in preferences
 	* You'll probably need to change `Working Directory` to match your local username
   * Put it in `~/Library/Application Support/iTerm2/DynamicProfiles` or just import it from `Preferences > Profiles > Other Actions... > Import JSON Profiles...`
