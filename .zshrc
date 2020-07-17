@@ -1,29 +1,19 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH=$HOME/.oh-my-zsh
 DEFAULT_USER=$USER
 
-BULLETTRAIN_PROMPT_ORDER=(
-  context
-  dir
-  git
-)
+export GOPATH=$HOME/go
 
-BULLETTRAIN_TIME_BG=white
-BULLETTRAIN_TIME_FG=black
-BULLETTRAIN_RUBY_BG=white
-BULLETTRAIN_RUBY_FG=black
-BULLETTRAIN_RUBY_PREFIX="♢"
-BULLETTRAIN_DIR_FG=black
-BULLETTRAIN_CONTEXT_BG=blue
-BULLETTRAIN_CONTEXT_FG=cyan
-BULLETTRAIN_DIR_EXTENDED=0
-BULLETTRAIN_CONTEXT_DEFAULT_USER=$USER
-BULLETTRAIN_CONTEXT_HOSTNAME=$HOST
-BULLETTRAIN_GIT_BG=black
-BULLETTRAIN_GIT_FG=white
-BULLETTRAIN_GIT_PROMPT_CMD=\${\$(git_prompt_info)//\\//\ \ }
-BULLETTRAIN_IS_SSH_CLIENT=""
-ZSH_THEME="bullet-train"
+ZSH_THEME="powerlevel10k/powerlevel10k"
+POWERLEVEL9K_MODE="nerdfont-complete"
+ENABLE_CORRECTION="true"
 
 plugins=(git
          zsh-autosuggestions
@@ -56,5 +46,11 @@ alias kbbcode="ping -c 1 yahoo.com |md5 | head -c16 | tr '[:lower:]' '[:upper:]'
 alias kanji='myougiden'
 alias zshrc='subl ~/.zshrc'
 alias se='subl .'
+alias httpstat='$GOPATH/bin/httpstat'
+alias headers='$GOPATH/bin/httpstat'
+alias yrd='yarn run dev'
 
 eval "$(nodenv init -)"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
