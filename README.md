@@ -7,7 +7,7 @@
 * Install Witch (NOT from App Store)
 * Install Spectacle from web
 * Install Bartender from web
-  * Apply license: http://www.macbartender.com/B2/licensing/?key=U29sIElydmluZQ==/GAWAE-FBNA2-9KPC5-DQG5T-G3RCA-KKJBC-L9A82-4ZLQC-CRV2L-UGQ8Q-G8AGE-SH4B4-2NNSC-2W7X4-XXWM
+  * Apply license: http://www.macbartender.com/B2/licensing/?key=<key>
 * Install Sublime Text
   * License key is in 1Password
   * `cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/`
