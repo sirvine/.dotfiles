@@ -3,13 +3,14 @@
 * Turn on Filevault
 * Install Dropbox and set up personal and KBB accounts
 * Install 1Password
-* Install Spectacle from web
+* Install Raycast
+* Install Rectangle Pro
 * Install Bartender from web
-  * Apply license: http://www.macbartender.com/B2/licensing/?key=<key>
+  * Apply license (from 1p)
 * Install Fira Code font: 
   * https://github.com/tonsky/FiraCode/wiki/Installing
   * `brew tap homebrew/cask-fonts`
-  * `brew cask install font-fira-code`
+  * `brew install font-fira-code --cask` 
 * Install Visual Studio Code
   * If native VS Code sync doesn't work, sync settings via gist: http://shanalikhan.github.io/2015/12/15/Visual-Studio-Code-Sync-Settings.html
   * The gist is hosted on personal github account `sirvine`
@@ -25,16 +26,14 @@
 * Install `autojump`: `brew install autojump`
 * Install nerd fonts
   * `brew tap homebrew/cask-fonts`
-  * `brew cask install font-hack-nerd-font`
-  * `brew cask install font-noto-mono-for-powerline`
+  * `brew install font-hack-nerd-font --cask`
+  * `brew install font-noto-mono-for-powerline --cask`
 * Install `MesloLGS NF` font
 * Install Powerline10K theme
   	* https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb
 * Install and setup oh-my-zsh
 	* https://github.com/robbyrussell/oh-my-zsh
 * Copy `.zshrc` from this repo
-* Install `zsh-autosuggestions` (use the oh-my-zsh instructions)
-* Install `zsh-syntax-highlighting` (use the oh-my-zsh instructions)
 * Install `nodenv`: `brew install nodenv`
 
 ### Dev stuff
