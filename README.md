@@ -62,4 +62,4 @@
 * Create ssh key pairs for personal and work github accounts
 	* See https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 * Add new ssh public keys to github accounts
-* Configure Tower with github accounts, default clone via SSH, and point to the correct private key(s)
+* Configure Github Desktop with github accounts, default clone via SSH, and point to the correct private key(s)
