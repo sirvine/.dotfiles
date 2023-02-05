@@ -45,12 +45,37 @@ alias heroku='noglob heroku'
 alias kbbcode="ping -c 1 yahoo.com |md5 | head -c16 | tr '[:lower:]' '[:upper:]'; echo"
 alias kanji='myougiden'
 alias zshrc='subl ~/.zshrc'
+alias srcset='~/srcset.sh'
 alias se='subl .'
 alias httpstat='$GOPATH/bin/httpstat'
 alias headers='$GOPATH/bin/httpstat'
 alias yrd='yarn run dev'
+alias prd='pnpm run dev'
+alias ngrok="/Applications/ngrok"
+alias sol="solana"
 
 eval "$(nodenv init -)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+
+# solana-cli
+export PATH="/Users/zenzen-sol/.local/share/solana/install/active_release/bin:$PATH"
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+export PATH=$(pyenv root)/shims:$PATH
+[ -f "/Users/zenzen-sol/.ghcup/env" ] && source "/Users/zenzen-sol/.ghcup/env" # ghcup-env
+
+# Created by `pipx` on 2021-10-12 15:05:11
+export PATH="$PATH:/Users/zenzen-sol/.local/bin"
+
+export PATH="$PATH:/Users/zenzen-sol/.foundry/bin"
+
+# pnpm
+export PNPM_HOME="/Users/zenzen-sol/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
