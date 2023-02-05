@@ -1,0 +1,34 @@
+[
+  {
+    "name": "bug",
+    "color": "#fc8080"
+  },
+  {
+    "name": "docs",
+    "color": "#62b2ed"
+  },
+  {
+    "name": "duplicate",
+    "color": "#e0e8f0"
+  },
+  {
+    "name": "enhancement",
+    "color": "#faef89"
+  },
+  {
+    "name": "help wanted",
+    "color": "#f6ac54"
+  },
+  {
+    "name": "on hold",
+    "color": "#f586b3"
+  },
+  {
+    "name": "question",
+    "color": "#68d391"
+  },
+  {
+    "name": "wontfix",
+    "color": "#475569"
+  }
+]
