@@ -36,16 +36,6 @@
 * Install `zsh-autosuggestions` (use the oh-my-zsh instructions)
 * Install `zsh-syntax-highlighting` (use the oh-my-zsh instructions)
 * Install `nodenv`: `brew install nodenv`
-* Optional (if you use iTerm2): Copy iTerm2 profile plist (from this repo) and point iTerm2 to it in preferences
-	* You'll probably need to change `Working Directory` to match your local username
-  * Put it in `~/Library/Application Support/iTerm2/DynamicProfiles` or just import it from `Preferences > Profiles > Other Actions... > Import JSON Profiles...`
-  * Set fonts to `Noto for Powerline` and `Hack Nerd Font` or `Fira Code`
-* Save a window arrangement that you like:
-  * <kbd>cmd-shift-S</kbd> or `Window > Save Window Arrangement`
-  * Name it `default-arrangement` or something similar
-* In iTerm2 preferences:
-  * under `General`, choose `Open Default Window Arrangement` under `Window restoration policy`
-  * under `Appearance`, choose `Minimal` theme and `Bottom` for status bar location
 
 ### Dev stuff
 
@@ -56,6 +46,8 @@
 * Install `colorls`: `gem install colorls`
 * Copy `~/.gitignore_global` from this repo
 * Run `git config --global core.excludesfile ~/.gitignore_global`
+* Bring over any keys from `~/.ssh` on the machine being replaced
+* Bring over any local repos from the machine being replaced
 
 ### Git/Github
 
@@ -63,3 +55,15 @@
 	* See https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 * Add new ssh public keys to github accounts
 * Configure Github Desktop with github accounts, default clone via SSH, and point to the correct private key(s)
+
+### Optional
+* Copy iTerm2 profile plist (from this repo) and point iTerm2 to it in preferences
+	* You'll probably need to change `Working Directory` to match your local username
+  * Put it in `~/Library/Application Support/iTerm2/DynamicProfiles` or just import it from `Preferences > Profiles > Other Actions... > Import JSON Profiles...`
+  * Set fonts to `Noto for Powerline` and `Hack Nerd Font` or `Fira Code`
+* Save a window arrangement that you like:
+  * <kbd>cmd-shift-S</kbd> or `Window > Save Window Arrangement`
+  * Name it `default-arrangement` or something similar
+* In iTerm2 preferences:
+  * under `General`, choose `Open Default Window Arrangement` under `Window restoration policy`
+  * under `Appearance`, choose `Minimal` theme and `Bottom` for status bar location
