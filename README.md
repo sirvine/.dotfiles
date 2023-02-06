@@ -1,12 +1,15 @@
 ## New Mac Setup
 
-* Turn on Filevault
+* Turn on Filevault, if using for sensitive data.
 * Install Dropbox and set up personal and KBB accounts
 * Install 1Password
 * Install Raycast
 * Install Rectangle Pro
-* Install Bartender from web
+* Install Bartender (from web
   * Apply license (from 1p)
+* Install Cleanshot
+* Install Figma
+* Install Reflect
 * Install Fira Code font: 
   * https://github.com/tonsky/FiraCode/wiki/Installing
   * `brew tap homebrew/cask-fonts`
